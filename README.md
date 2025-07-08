@@ -62,7 +62,7 @@ python -m spacy download es_core_news_sm # Spanish model (optional)
 
 Run the main analysis script:
 ```bash
-python3 intro.py
+python3 main.py
 ```
 
 This will:
@@ -74,7 +74,7 @@ This will:
 
 ```
 natural-language-spacy-python/
-├── intro.py          # Main analysis script
+├── main.py          # Main analysis script
 ├── data/
 │   └── wiki_us.txt   # Wikipedia article about the United States
 ├── README.md         # Project documentation
@@ -83,7 +83,7 @@ natural-language-spacy-python/
 
 ## 🔍 What You'll Learn
 
-The `intro.py` script demonstrates:
+The `main.py` script demonstrates:
 
 - **Text Loading**: Reading and processing text files
 - **Document Processing**: Converting raw text into SpaCy document objects
