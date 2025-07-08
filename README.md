@@ -62,7 +62,7 @@ python -m spacy download es_core_news_sm # Spanish model (optional)
 
 Run the main analysis script:
 ```bash
-python intro.py
+python3 intro.py
 ```
 
 This will:
